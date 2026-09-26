@@ -13,7 +13,7 @@
 <section class="page" id="analysis"><div class="analysishead"><div><div class="muted">KAMPANYA BAZLI ANALİZ</div><h2 style="font-size:23px;margin-top:4px">Reklam Analizi</h2><div class="muted" style="margin-top:5px">Kampanyaları ekleyin; sonuçları ve hedef kitle ayarlarını ayrı ayrı tutun.</div></div><button class="btn primary" id="addCampaign">＋ Kampanya ekle</button></div><div class="campaigns" id="analysisCampaigns"></div></section>
 <div class="foot">Veriler ortak veritabanında saklanır. Bu panelin erişimi ortak şifre ile korunur.</div></div><div class="toast" id="toast"></div>
 <script>
-const API_URL="https://nugkmteyxaqzwcdpx.supabase.co/functions/v1/campaign-api";
+const API_URL="https://nugkmtexyxaqzwycdppx.supabase.co/functions/v1/campaign-api";
 const PUBLISHABLE_KEY="sb_publishable_FO5t_tQf_LhA_JqXJcgoqw_6QWalqEK";
 let appPassword="",campaigns=[],records=[];const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const defaults=(id,name)=>({id,name,settings:{offerTag:"",cities:"Türkiye",age:"Belirtilmedi",gender:"Kadın",advantage:"Kapalı",target:"",interests:"",start:"",duration:5,budget:0,audienceSize:"",notes:""},results:{reach:0,engagement:0,adMessages:0,profileVisits:0,followers:0,spend:0},notes:""});
